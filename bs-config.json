@@ -1,9 +1,11 @@
 {
   "port": 8000,
   "files": [
-    "./src/**/*.{html,htm,css,js}"
+    "./build/**/*.{html,htm,css,js}"
   ],
   "server": {
     "baseDir": "./build"
-  }
+  },
+  "https": true,
+  "watch": true
 }
